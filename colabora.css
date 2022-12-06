@@ -1,0 +1,55 @@
+.colabora-intro{
+    margin-bottom: 20px;    
+}
+
+.colabora-intro-title{
+    padding: 20px;
+    text-align: center;
+}
+
+.colabora-intro-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.colabora-content{
+    width: 80%;
+    max-width: 500px;
+    height: 200px;
+    margin: 0px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#menjar{
+    background-image: url(imagenes/donaciones-comida.jpg);
+    background-size: cover;
+}
+
+#feina{
+    background-image: url(imagenes/donaciones3.jpg);
+    background-size: cover;  
+}
+
+#habitatge{
+    background-image: url(imagenes/ayuda-movilidad.jpg);
+    background-size: cover;  
+}
+
+#materials{
+    background-image: url(imagenes/medicamentos.jpg);
+    background-size: cover;  
+}
+
+#voluntaris{
+    background-image: url(imagenes/voluntarios-comida.jpg);
+    background-size: cover;  
+}
+
+#diners{
+    background-image: url(imagenes/donaciones.jpg);
+    background-size: cover;  
+}

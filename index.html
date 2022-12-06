@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpMolins</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="header.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body onload="banner()">
+    <div class="container">
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a href="index.css" class="enlace">
+                    <img src="imagenes/logo.jpg" alt="" class="logo">
+                </a>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="projecte.html">El Projecte</a></li>
+                    <li><a href="colabora.html">Col·labora</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="banner">
+                    <img class="banner-image" src="" name="banner">
+                </div>
+            </section>
+            <section>
+                <div class="help-molins">
+                    <div class="help-molins-title">
+                        <h1>HELP MOLINS</h1>
+                    </div>
+                    <div class="help-molins-content">
+                        <p>Moltes famílies del nostre país, viuen en el llindar de la pobresa. Els desnonaments, s’han
+                            convertit en habituals, així com, l’escassetat d’aliments, d’aigua, de roba, etc.
+                            Amb la web <b>HelpMolins</b>, és vol aconseguir col·laborar amb la societat, cercar vies d’ajuda
+                            per
+                            a
+                            gent que realment ho necessita, aportar eines necessàries per ajudar a famílies que han de
+                            cercar habitatge, menjar, aigua, feina, roba, suport psicològic, suport judicial, etc.</p>
+                    </div>
+                    <div class="colaborate">
+                        <a class="button" href="colabora.html">Col·labora</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="image-help">
+                    <img class="image-help-photo" alt="image-help" src="imagenes/help.jpg">
+                </div>
+            </section>
+            <section>
+                <div class="help-molins-help">
+                    <div class="help-molins-help-title">
+                        <h2>NECESSITES AJUDA?</h2>
+                    </div>
+                    <div class="help-molins-help-content">
+                        <p>T’has quedat sense feina? Necessites menjar i aigua? No arribes a pagar el lloguer o et volen
+                            desnonar? Els teus fills no tenen material escolar? Requeriu atenció psicològica? No dubteu
+                            en contactar amb HelpMolins. Estem aquí per ajudar-vos!</p>
+                    </div>
+                    <div class="help-me">
+                        <a class="button" href="contacte.html">Contactar</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="help-molins-ubication-title">
+                    <h2>ON ENS POTS TROBAR?</h2>
+                </div>
+                <div class="help-molins-ubication">
+                    <div id="map"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contact-data">
+                <br>
+                <div class="contact-data-title">
+                    <h3>Contacte</h3>
+                </div>
+                <div class="contact-data-content">
+                    <p><b>Direcció: </b>C/Fransesc Samaranch 22, <br>Local HelpMolins - 08750</p>
+                    <p>Molins de Rei - Barcelona - Espanya</p>
+                    <p><b>Telèfon:</b> (+34) 936 68 36 15</p>
+                    <p><b>Correu:</b> helpmolins@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="legal-data">
+                <br>
+                <div class="legal-data-title">
+                    <h3>Legal</h3>
+                </div>
+                <div class="legal-data-content">
+                    <p>Termes i Condicions</p>
+                    <p>Avís legal</p>
+                    <p>Política de Privacitat</p>
+                    <p>Política de Cookies</p>
+                </div>
+            </div>
+            <div class="social-data">
+                <br>
+                <div class="social-data-title">
+                    <h3>Social</h3>
+                </div>
+                <div class="social-data-content">
+
+                </div>
+            </div>
+            <br>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLKzfvepy23NBkLyPOrItOQWqP7y8hvWg&callback=iniciarMap">
+</script>
+</html>
